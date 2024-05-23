@@ -3,9 +3,10 @@ from st_paywall import add_auth
 
 st.set_page_config(layout="wide")
 st.title("Welcome to OliveSaaS 🚀")
-st.balloons
 
 add_auth(required=True)
+
+st.balloons()
 
 #st.write("your email is: {st.session_state.email}")
 
