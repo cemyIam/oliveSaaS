@@ -6,7 +6,7 @@ st.title("Welcome to OliveSaaS 🚀")
 
 add_auth(required=True)
 
-st.write(f'your email is: {st.session_state.email}')
+st.write("your email is: {st.session_state.email}")
 
 # ONLY AFTER THE AUTHENTICATION + SUBSCRIPTION, THE USER WILL SEE THIS ⤵
 # The email and subscription status is stored in session state.
