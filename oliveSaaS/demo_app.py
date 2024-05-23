@@ -2,12 +2,13 @@ import streamlit as st
 from st_paywall import add_auth
 
 st.set_page_config(layout="wide")
-st.title("OliveSaaS 🚀")
+st.title("OliveSaaS 🎈")
+st.balloons()
 
 add_auth(required=True)
 
-st.write("🎈 Tyler's Subscription app POC 🎈")
-st.balloons()
+#st.write("🎈 Tyler's Subscription app POC 🎈")
+#st.balloons()
 
 #st.write("your email is: {st.session_state.email}")
 
